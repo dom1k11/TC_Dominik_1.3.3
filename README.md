@@ -7,7 +7,7 @@
    - **1 session** working on someone else's project.
 3. Create **GitHub issues** for planned tasks before each session.
 4. **During the session**:
-   - Decide who codes first (use `random` module if needed).
+   - Decide who codes first
    - The coder assigns an issue, shares their screen, and writes code.
    - After half the time, commit & push changes.
    - Switch roles and repeat.
@@ -27,9 +27,8 @@
 - **`Player`** – Represents a player with a deck of cards.
 
 ## Functions for Game Logic:
-- **`play_round(player1, player2)`** – Plays a round and returns updated data.
-- **`war_scenario(player1, player2)`** – Handles a "war" scenario.
-- **`start(player1, player2)`** – Runs the entire game using a `while` loop.
-
-This way, classes only store data, while all game logic is managed through functions.
+- **`create_deck()`** – Creates a deck and gives cards to the players.
+- **`play_round()`** – Plays a round and returns updated data.
+- **`war_scenario()`** – Handles a "war" scenario.
+- **`play_game()`** – Runs the entire game using a `while` loop.
 

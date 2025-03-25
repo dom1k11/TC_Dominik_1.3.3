@@ -30,18 +30,5 @@ class Player:
     def __repr__(self):
         return f"{self.name}'s hand: {self.hand}\n"
     
-deck = Card.create_deck()
 
-random.shuffle(deck)
-
-player1 = Player("Dominik")
-player2 = Player("Bot")
-
-player1.hand = deck[:26]
-player2.hand = deck[26:]
-
-
-#players' hands
-print(player1) 
-print(player2)
 

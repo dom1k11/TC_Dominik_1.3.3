@@ -2,7 +2,7 @@ import random
 from card import Player, Card
 
 def main():
-    create_deck()
+    create_deck
 
 
 def create_deck():
@@ -11,7 +11,7 @@ def create_deck():
     random.shuffle(deck)
 
     player1 = Player("Dominik")
-    player2 = Player("Bot")
+    player2 = Player("BOT")
 
     player1.hand = deck[:26]
     player2.hand = deck[26:]
